@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellota:ital,wght@1,300&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: rgba(222, 184, 135, 0.598);
+
+    font-family: 'Bellota', cursive;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    
+    font-size: 150%;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+
+    font-size: 150%;
+    color: crimson;
+}
+
+h2{
+    text-align: center;
+    font-size: 130%;
+
+    padding-bottom: 3%;
+    border-bottom: 2px solid black;
+}
+
+/* ---------------------------------------------------- */
+
+.start{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    margin-bottom: 0;
+
+
+    width: 90%;
+    
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 8px ridge gray;
+    border-radius: 15%;
+    box-shadow: 3px 3px 10px teal;
+}
+
+.work{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    margin-bottom: 0;
+
+
+    width: 90%;
+
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 8px ridge gray;
+    border-radius: 15%;
+    box-shadow: 3px 3px 10px green;
+}
+
+.problem{
+    display: flex;
+    flex-direction: column;
+    margin: 5% auto;
+    margin-bottom: 0;
+
+
+    width: 90%;
+
+    background-color: rgba(255, 255, 255, 0.598);
+    border: 8px ridge gray;
+    border-radius: 15%;
+    box-shadow: 3px 3px 10px red;
+}
+
+
+
