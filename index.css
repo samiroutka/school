@@ -20,7 +20,7 @@ h3{
     margin: 0;
     text-align: center;
 
-    font-size: 150%;
+    font-size: 200%;
     color: crimson;
 }
 
@@ -68,9 +68,37 @@ li{
 
 /* ---------------------------------------------------- */
 
+.ar-h1{
+    grid-area: h1;
+    width: 80%;
+}
+
+.ar-img1{
+    grid-area: img1;
+    width: 100%;
+}
+
+.ar-h3{
+    grid-area: h3;
+    width: 80%;
+}
+
+.ar-img2{
+    grid-area: img2;
+    width: 100%;
+}
+
+/* ------------------------------------------------------ */
+
 .start{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-areas: 
+    'img1 h1'
+    'h3 img2'
+    ;
+
+
+
     margin: 5% auto;
     margin-bottom: 0;
     padding: 5%;
