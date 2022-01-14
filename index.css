@@ -33,6 +33,15 @@ h2{
     border-bottom: 2px solid black;
 }
 
+h4{
+    margin: 0;
+
+    width: 90%;
+
+    text-align: center;
+    font-size: 90%;
+}
+
 ul, ol{
     margin: 1%;
 }
@@ -70,6 +79,11 @@ ul, ol{
     box-shadow: 3px 3px 10px green;
 }
 
+.img1, .kitchen{
+    margin: 2% auto;
+    width: 90%;
+}
+
 .problem{
     display: flex;
     flex-direction: column;
@@ -84,7 +98,6 @@ ul, ol{
     border-radius: 15%;
     box-shadow: 3px 3px 10px red;
 }
-
 
 
 
