@@ -46,6 +46,24 @@ ul, ol{
     margin: 1%;
 }
 
+.last{
+    border-bottom: 2px dashed black;
+}
+
+.price{
+    text-align: center;
+    margin: 0;
+    
+    font-weight: 900;
+    font-size: 150%;
+    color: brown;
+}
+
+.text0{
+    margin: 0;
+    color: blue;
+}
+
 /* ---------------------------------------------------- */
 
 .start{
@@ -77,6 +95,11 @@ ul, ol{
     border: 8px ridge gray;
     border-radius: 15%;
     box-shadow: 3px 3px 10px green;
+}
+
+.dop{
+    margin: 0 auto;
+    width: 80%;
 }
 
 .img1, .kitchen{
