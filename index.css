@@ -45,6 +45,19 @@ h4{
     font-size: 90%;
 }
 
+h5{
+    text-align: center;
+    margin: 0;
+    width: 90%;
+
+    font-size: 200%;
+}
+
+.what{
+    width: 90%;
+    margin-bottom: 5%;
+}
+
 ul, ol{
     margin: 1%;
 }
@@ -62,6 +75,7 @@ li{
 
 .text0{
     background-color: rgba(255, 198, 124, 0.605);
+    text-align: center;
     border-radius: 20%;
     color: blue;
 }
