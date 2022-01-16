@@ -89,6 +89,7 @@ li{
 .ar-h1{
     grid-area: h1;
     width: 80%;
+    margin: auto;
 }
 
 .ar-img1{
@@ -99,6 +100,7 @@ li{
 .ar-h3{
     grid-area: h3;
     width: 80%;
+    margin: auto;
 }
 
 .ar-img2{
