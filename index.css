@@ -132,7 +132,7 @@ a{
     border-radius: 10%;
     box-shadow: 3px 3px 10px teal;
 
-    animation: anim1 2s linear infinite;
+    animation: anim1 3s linear infinite;
 }
 
 .work{
@@ -149,7 +149,7 @@ a{
     border-radius: 10%;
     box-shadow: 3px 3px 10px green;
 
-    animation: anim1 2s linear infinite;
+    animation: anim1 3s linear infinite;
 }
 
 .dop{
@@ -179,7 +179,7 @@ a{
     border-radius: 10%;
     box-shadow: 3px 3px 10px red;
 
-    animation: anim1 2s linear infinite;
+    animation: anim1 3s linear infinite;
 }
 
 /* ------------------------------------- */
@@ -187,17 +187,21 @@ a{
 @keyframes anim1 {
     0%{
         border-radius: 10%;
+        border-color: rgba(128, 128, 128, 0);
+    }
+    20%{
+        border-radius: 10%;
         border-top-color: gray;
     }
-    25%{
+    40%{
         border-radius: 12%;
         border-right-color: gray;
     }
-    50%{
+    60%{
         border-radius: 15%;
         border-bottom-color: gray;
     }
-    75%{
+    80%{
         border-radius: 13%;
         border-left-color: gray;
     }
