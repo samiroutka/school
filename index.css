@@ -81,7 +81,7 @@ li{
     background-color: rgba(255, 198, 124, 0.605);
     text-align: center;
     border-radius: 20%;
-    color: blue;
+    color: purple;
 }
 
 /* ---------------------------------------------------- */
@@ -104,6 +104,10 @@ li{
 .ar-img2{
     grid-area: img2;
     width: 100%;
+}
+
+a{
+    color: rgba(0, 0, 255, 0.755);
 }
 
 /* ------------------------------------------------------ */
